@@ -1,0 +1,33 @@
+@import "./../base/variable";
+
+
+.like__container i {
+    font-size: 27px;
+    color: transparent;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    background-image: linear-gradient(45deg, $secondary-color, $primary-color);
+    background-repeat: no-repeat;
+    cursor: pointer;
+    background-position: 0 27px;
+
+
+}
+
+.like__container i:hover {
+    animation: fill 700ms ease forwards;
+}
+
+@keyframes fill {
+    0% {
+        background-position: 0 27px;
+    }
+
+
+
+    100% {
+        background-position: 0 0;
+        -webkit-text-stroke: 0px transparent;
+    }
+}

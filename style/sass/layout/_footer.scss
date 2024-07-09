@@ -1,0 +1,41 @@
+footer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 40px 20px;
+    background-color: #353535;
+    row-gap: 15px;
+
+    .logo {
+        font-family: $font-title, sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        color: white;
+    }
+
+    .footer__logo {
+        width: 18px;
+        height: 18px;
+        margin-right: 8px;
+    }
+
+    .footer__link {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        color: white;
+        font-family: $font-text, sans-serif;
+        font-size: 18px;
+
+        a {
+            display: block;
+            width: auto;
+            color: white;
+        }
+    }
+}
+
+@media (min-width:768px) {
+    footer {
+        align-items: center;
+    }
+}

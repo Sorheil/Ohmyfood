@@ -1,0 +1,78 @@
+@import "./../base/variable";
+@import'../base/typography';
+
+.menu {
+    position: relative;
+    background-color: $second-background-color;
+
+    &__image {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+
+    .container__menu {
+        border-top-left-radius: 40px;
+        border-top-right-radius: 40px;
+        width: 100%;
+        background-color: $second-background-color;
+        position: relative;
+        top: -40px;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    &__restaurant-title {
+        font-size: 15px;
+        font-family: $font-title , sans-serif;
+        font-weight: 500;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 25px;
+
+    }
+
+    .menu__type {
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+
+        .type__title {
+            font-family: $font-text;
+            color: $secondary-text-color;
+            padding: 5px 0px;
+            position: relative;
+
+            &::after {
+                content: '';
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                height: 4px;
+                width: 40px;
+                background-color: $tertiary-color ;
+            }
+        }
+    }
+
+}
+
+@media (min-width:768px) {
+
+    .menu__image {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .container__menu {
+        align-items: center;
+    }
+
+    .menu__restaurant-title {
+        width: 100%;
+        padding-right: 25px;
+    }
+}

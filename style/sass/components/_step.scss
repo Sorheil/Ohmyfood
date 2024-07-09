@@ -1,0 +1,55 @@
+@import "./../base/variable";
+
+.step {
+    display: flex;
+    align-items: center;
+    position: relative;
+    border-radius: 25px;
+    margin-left: 15px;
+    padding: 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: $font-text, sans-serif;
+    background-color: $second-background-color ;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.314);
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.488);
+        color: $primary-color;
+        background-color: #F5EDFF;
+    }
+
+    &__number-icon {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+
+        font-family: $font-text, sans-serif;
+        font-style: normal;
+        font-size: 15px;
+        border-radius: 100px;
+        background-color: $primary-color;
+        color: white;
+        left: -15px;
+        top: calc((100% - 30px)/ 2);
+    }
+
+    &__icon {
+        font-size: 20px;
+        color: $secondary-text-color;
+        margin-right: 20px;
+
+
+    }
+}
+
+@media (min-width:768px) {
+
+    .step {
+        width: calc((100vw /3) - 44px);
+    }
+}

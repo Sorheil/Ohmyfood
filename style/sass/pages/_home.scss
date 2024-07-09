@@ -1,0 +1,100 @@
+@import "./../components/step";
+
+.localisation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: $font-text, sans-serif;
+
+    &__place {
+        font-size: 18px;
+        padding: 18px 0;
+        font-weight: 500;
+        color: $secondary-text-color;
+
+        i {
+            margin-right: 22px;
+        }
+    }
+
+    .explore-restaurants {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+        padding: 55px 20px;
+        background-color: $second-background-color;
+
+        &__title {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        &__description {
+            text-align: center;
+            font-size: 19px;
+            color: $secondary-text-color;
+        }
+    }
+}
+
+//section functioning
+
+.functioning {
+    padding: 55px 20px;
+    background-color: white;
+
+    &__title {
+        font-size: 25px;
+        font-family: $font-text, sans-serif;
+        padding-bottom: 25px
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column;
+        row-gap: 22px;
+    }
+
+}
+
+// section restaurants
+
+.restaurants {
+    padding: 50px 20px;
+    background-color: #F6F6F6;
+
+    &__title {
+        font-family: $font-text, sans-serif;
+        font-size: 25px;
+        padding-bottom: 20px;
+    }
+
+    .container__restaurants {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+}
+
+@media (min-width:768px) {
+    .functioning {
+        padding: 55px 100px;
+    }
+
+    .steps {
+        flex-direction: row !important;
+        column-gap: 22px;
+    }
+
+    .restaurants {
+        padding: 50px 100px;
+
+        .container__restaurants {
+            
+            row-gap: 20px;
+        }
+    }
+}

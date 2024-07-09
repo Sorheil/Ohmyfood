@@ -1,0 +1,62 @@
+@import "./../base/variable";
+
+.restaurant {
+    height: 250px;
+    position: relative;
+    width: calc(100vw - 40px);
+    border-radius: 22px;
+    font-family: $font-text, sans-serif;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.208);
+
+    &--new::before {
+        content: 'Nouveau';
+        position: absolute;
+        top: 17px;
+        right: 15px;
+        padding: 6px;
+        color: $secondary-text-color;
+        font-weight: 700;
+        background-color: $tertiary-color;
+    }
+
+    &__image {
+        border-top-left-radius: 22px;
+        border-top-right-radius: 22px;
+        height: 70%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    &__description {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px 18px 10px;
+
+    }
+
+    &__localisation {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3px;
+    }
+
+    &__title {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    &__place {
+        font-size: 20px;
+        color: $secondary-text-color;
+    }
+    &:hover{
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.449);
+    }
+}
+
+@media (min-width:768px) {
+
+    .restaurant {
+        width: calc(100vw - 50vw);
+    }
+}

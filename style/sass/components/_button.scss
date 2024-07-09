@@ -1,0 +1,21 @@
+@import "./../base/variable";
+
+//style component  for a button
+.btn {
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    font-family: $font-text;
+    padding: 18px 25px;
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 80px;
+    background: linear-gradient(to top, $primary-color , $secondary-color);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.314);
+}
+.btn:hover{
+    opacity: 0.9;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.516);
+}

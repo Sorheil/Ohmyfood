@@ -1,12 +1,19 @@
-### 🌟 Identité 🌟
-Ohmyfood! est une entreprise de commande de repas en ligne. Notre concept permet aux utilisateurs de composer leur propre menu et de réduire leur temps d’attente dans les restaurants car leur menu est préparé à l’avance. 🚀 Plus de perte de temps à consulter la carte! 🍽️
-
-### 🌟 Proposition 🌟
-Nous souhaitons proposer à nos clients les menus de restaurants gastronomiques. Développé à New-York dans un premier temps, nous souhaitons désormais élargir notre concept à la capitale de la gastronomie : Paris. 🇺🇸➡️🇫🇷
-
-### 🌟 Positionnement 🌟
-Nous nous positionnons sur un marché de niche, avec les restaurants luxueux des villes dans lesquelles nous sommes établis. Nous souhaitons être identifiés comme une entreprise proposant des services haut de gamme. 🌟🍴
-
 ---
 
-En tant qu'ancien stagiaire chez Ohmyfood!, dans le cadre de mon parcours de développeur frontend, j'ai eu l'occasion de contribuer à cette vision innovante et ambitieuse. 🌐💼
+# 🍽️ Projet Ohmyfood!
+
+Ce projet s'inscrit dans le cadre du parcours "Développeur d'application - JavaScript React" d'OpenClassrooms. L'objectif est d'intégrer l'interface utilisateur d'Ohmyfood!, une application de commande de repas en ligne, en utilisant exclusivement HTML et CSS, sans recourir à JavaScript. Le site est développé selon une approche "desktop first", puis adapté pour une expérience responsive sur mobile, tablette et desktop.
+
+## Objectifs 🎯
+
+- Transformer les maquettes Figma en un site web fonctionnel et esthétique.
+- Assurer que toutes les pages du site passent avec succès la validation W3C pour HTML et CSS.
+- Garantir une compatibilité parfaite avec les versions récentes de Chrome et Firefox sur desktop.
+
+## Compétences Développées 🏆
+
+- Intégration d'une interface responsive pour une expérience utilisateur fluide sur différents appareils.
+- Utilisation avancée de HTML et CSS pour l'intégration de contenu visuel attrayant.
+- Création d'un environnement Front-End robuste et conforme aux standards de développement web.
+
+---
